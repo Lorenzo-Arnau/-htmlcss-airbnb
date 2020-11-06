@@ -57,6 +57,7 @@ con l'mbreggiatura sul testo richiesta */
 /* definisco un blocco che funzionerà da ombreggiatura */
 .first{
   background-image: url("../img/dublino.jpg");
+  margin-top: 120px;
 }
 .second{
   background-image: url("../img/bergamo.jpg");
@@ -66,3 +67,40 @@ con l'mbreggiatura sul testo richiesta */
 }
 /* definisco la largezza in view height and width e definisco i blocchi */
 /* version checked */
+ /* creo un menu con le sue caratteristiche */
+ .menu-container{
+   width: 100%;
+   height: 100px;
+   background-image: url("../img/menu-background.jpg");
+   background-position: center;
+   background-size: cover;
+   position: fixed;
+   top: 0%;
+   z-index: 1001;
+   border-bottom-right-radius:20px;
+   border-bottom-left-radius:20px;
+ }
+ li{
+   height: 40px;
+   display: inline-block;
+   margin-left:3px;
+   text-align: center;
+   font-size: 18px;
+   line-height:20px;
+   font-size: 33px;
+   padding: 10px 50px;
+   font-style: italic;
+   font-weight: bold;
+   border-left: 1px black solid;
+   box-shadow: 10px 10px 30px #000;
+   color: #71000B;
+ }
+ .menu-item{
+   width: 1200px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform:translate(-50%,-50%);
+ }
+
+ /* /creo un menu con le sue caratteristiche */
