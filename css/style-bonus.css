@@ -15,7 +15,7 @@
   background-position: center;
   background-size: cover;
   margin: 50px 0px;
-  box-shadow: 10px 10px 10px #000;
+  box-shadow: 15px 1px 25px #000;
 
 }
 /* definisco un blocco che funzionerà da ombreggiatura */
@@ -27,15 +27,16 @@
 }
 /* /definisco un blocco che funzionerà da ombreggiatura */
 
-/* definisco la regola hover in modo che sparisca shade */
+/* definisco la regola hover in modo che sparisca shade e appaia su span */
 .block:hover .shade{
   display: none;
 }
 .block:hover span{
   background-color: rgba(0, 0, 0, 0.5);
   opacity: 1;
+  box-shadow: 30px 10px 30px  #000;
 }
-/* /definisco la regola hover in modo che sparisca shade */
+/* /definisco la regola hover in modo che sparisca shade e appaia in span */
 
 
 /* definisco una regola che funzionerà per ogni nome nei blocchi
@@ -64,4 +65,4 @@ con l'mbreggiatura sul testo richiesta */
   background-image: url("../img/amsterdam.jpg");
 }
 /* definisco la largezza in view height and width e definisco i blocchi */
-/* version checked */
+/* version unchecked */
