@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* definisco la largezza in view height and width e definisco i blocchi */
 .base{
   width: 100vw;
 }
@@ -13,12 +14,17 @@
   background-position: center;
   background-size: cover;
 }
+/* definisco un blocco che funzionerà da ombreggiatura */
 .shade{
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
 }
+/* /definisco un blocco che funzionerà da ombreggiatura */
+
+/* definisco una regola che funzionerà per ogni nome nei blocchi
+con l'mbreggiatura sul testo richiesta */
 span{
   position: absolute;
   top: 50%;
@@ -29,6 +35,10 @@ span{
   color: #fff;
   opacity: 0.8;
 }
+/* /definisco una regola che funzionerà per ogni nome nei blocchi
+con l'mbreggiatura sul testo richiesta */
+
+/* definisco un blocco che funzionerà da ombreggiatura */
 .first{
   background-image: url("../img/dublino.jpg");
 }
@@ -38,3 +48,4 @@ span{
 .third{
   background-image: url("../img/amsterdam.jpg");
 }
+/* definisco la largezza in view height and width e definisco i blocchi */
